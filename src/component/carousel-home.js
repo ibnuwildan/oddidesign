@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import CardHome from "./card-carousel";
-import { Container } from "react-bootstrap";
 
 const CarouselHome = ()=> {
     return(
