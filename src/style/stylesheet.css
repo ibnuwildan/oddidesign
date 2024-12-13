@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Mate&family=Noto+Sans+Pahawh+Hmong&family=Pathway+Gothic+One&family=Staatliches&display=swap');
+.oddisablon {
+  background-image: url("../img/bakcground-oddi.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+/*navbar */
+.navbar {
+    background-color: #71e5a8;
+    font-size: 15px;
+  }
+  .nav-link {
+    margin: 15px;
+    padding-right: 20px;
+    color: #646464;
+  }
+  .nav-link:hover {
+    color: black;
+  }
+  /* home page  */
+.header-1 p {
+  padding-top: 20px ;
+}
+/* card carousel home */
+
+.card-home {
+  width: 17rem;
+  padding-top: 30px;
+  margin: 2rem;
+  border-color: transparent;
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.card-home img {
+  border-radius: 50%;
+  width: 8rem;
+  height: auto;
+  margin: 0 auto;
+}
+  /* custom page */
+.whatsapp-custom img {
+  width: 20px;
+}
+
+  /* footer */  
+.footer {
+    background-color: #71e5a8;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+  }
+  .footer a {
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #646464;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.5s;
+  }
+  .footer a:hover {
+    color: black;
+    transform: translateX(-5px);
+  }
+
+  .col-md-4 img {
+    width: 9rem;
+    margin-right: 1.5rem;
+    padding-top: 5px;
+  }
+  .col-md-4 {
+    padding-top: 2rem;
+  }
+  
+  .col-md-4 h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .col-md-4 h4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    left: 3;
+    bottom: 25px;
+    background: black;
+  }
+
+  .social img {
+    padding-top: 25px;
+    width: 35px;
+    margin-right: 40px ;
+    transition: 0.4s;
+  }
+  .social img:hover {
+    transform: translateY(-12px);
+  }
+  
+  @media (max-width: 768px) {
+  
+    /* navbar */
+    /* .navbar .nav-link {
+      background-color:#646464;
+      text-align: center;  
+      color: #71e5a8;
+    } */
+
+    /* home page */
+    .text-header {
+      font-size:medium;
+      height: 50px;
+    }
+    .header-1 p {
+      padding-top: 5px ;
+      font-size: small;
+    }
+    .header-1.row {
+      flex-direction: row; /* Mengatur ulang orientasi baris */
+      justify-content: space-around; /* Mengatur jarak antara elemen */
+      height: 8rem;
+      padding: 15px;
+    }
+  
+    .col-sm-3 {
+      flex: 1; /* Mengatur lebar kolom sesuai kebutuhan pada tampilan mobile */
+      max-width: 100%; /* Maksimum lebar kolom pada tampilan mobile */
+      text-align: center;
+      font-size: small;
+      padding: 0 !important;
+    }
+    .icons svg {
+      width: 2rem; /* Atur ukuran ikon pada tampilan mobile sesuai kebutuhan */
+      height: 2rem; /* Atur ukuran ikon pada tampilan mobile sesuai kebutuhan */
+    }
+  
+    .header-2.container {
+      flex-direction: row; /* Mengatur ulang orientasi baris */
+      justify-content: space-around; /* Mengatur jarak antara elemen */
+    }
+    .col-sm-12 {
+      flex: 30 0 10%; /* Atur lebar kolom untuk mobile sesuai kebutuhan */
+      max-width: 50%;
+      text-align: center;
+    }
+    .header-4.container {
+      flex-direction: row; /* Mengatur ulang orientasi baris */
+      justify-content: space-around; /* Mengatur jarak antara elemen */
+    }
+    .col-md-3 {
+      flex: 1; /* Mengatur lebar kolom sesuai kebutuhan pada tampilan mobile */
+      max-width: 100%; /* Maksimum lebar kolom pada tampilan mobile */
+      text-align: center;
+    }
+    /* Card */
+    .card {
+      width: 8rem !important;
+    }
+    .card-home img {
+      border-radius: 50%;
+      width: 20px;
+      height: auto;
+      margin: 0 auto;
+    }
+    /* page custom */
+    .container .text-center {
+      font-size: large;
+    }
+    .header-custom .row {
+      flex-direction: column;
+    }
+    .header-custom2 {
+      margin: 5px !important;
+    }
+    .header-custom .row .header-cistom-1 {
+      text-align: justify;
+      font-size: 15px !important;
+    }
+  
+    .header-custom img {
+      width: 100% !important;
+      border-radius: 0;
+    }
+  
+    .row.text-center > div {
+      flex: 1;
+      padding: 10px;
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+    p {
+      margin: 10px 0; /* Berikan jarak antara teks */
+      font-size: 15px; /* Ukuran font lebih kecil */
+    }
+    .col-md-2 svg {
+      font-size: small !important;
+    }
+  
+    .header-custom .hedare-col {
+      padding: 20px !important;
+    }
+  
+    .whatsapp-custom img {
+      width: 20px;
+      padding-bottom: 5px;
+    }
+  
+    /* footer */
+    .footer .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .footer .col-md-4 {
+      flex: 1;
+    }
+
+    .footer h4,
+    .footer p,
+    .footer a {
+      font-size: 13px; /* You can adjust this size to your preference */
+    }
+  
+    /* Reduce image size */
+    .footer img {
+      max-width: 80px; /* You can adjust this value to control the image size */
+    }
+    .footer .kol1 p {
+      font-size: 12px !important;
+    }
+    .footer .social img {
+      max-width: 20px;
+    }
+    /* Reduce icon size */
+    .footer svg {
+      height: 20px;
+      width: 20px; /* You can adjust this value to control the icon size */
+      justify-content: space-around;
+    }
+    /* card carouosel home */
+    .title-carousel {
+      font-size: 15px;
+    }
+    .card-home {
+      width: 4rem !important;
+      margin: 12px;
+      padding-top: 5px;
+    } 
+    .card-home .card-text {
+      width: 4rem ;
+    }
+    .card-home img {
+      width: 3rem;
+    }
+    .card-home .card-text,
+    .card-home .card-title {
+    font-size: 6px !important;
+    }
+    .title-carousel {
+      height: 30px;
+    }
+    /* page polo */
+    .d-flex.flex-wrap {
+      /* Mengubah tampilan menjadi satu baris (row) */
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      width: 100%;
+    }
+  
+    .card-item {
+      /* Mengatur lebar kartu (Card) */
+      height: auto;
+      flex: 0 0 auto;
+      width: 25% !important; /* Mengurangi margin agar sesuai dengan lebar layar */
+    }
+  
+    /* about page */
+    .myabout .about {
+      display: flex;
+    }
+  
+    .myabout .about .col-lg-6 {
+      padding: 10px !important;
+      font-size: 10px !important;
+    }
+    .myabout .about .col-lg-6 p {
+      font-size: 15px !important;
+    }
+  
+  }
+  
